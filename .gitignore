@@ -1,0 +1,93 @@
+# =========================
+#  Python
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# =========================
+# 🌱 Virtual Environments
+# =========================
+.venv/
+venv/
+env/
+ENV/
+
+# =========================
+#  Environment / Secrets
+# =========================
+.env
+# .env.*
+*.env
+
+# =========================
+#  AI / ML Artifacts
+# =========================
+# Vector DBs
+chroma_db/
+*.chroma/
+*.faiss
+*.index
+
+# Embeddings / cached data
+# embeddings/
+cache/
+.cache/
+
+# Model downloads (if any local storage)
+models/
+checkpoints/
+
+# =========================
+#  Data files
+# =========================
+data/
+*.csv
+*.parquet
+*.jsonl
+
+# (optional: allow small sample data)
+!data/sample/
+
+# =========================
+# 🧾 Logs
+# =========================
+logs/
+*.log
+
+# =========================
+# 💻 IDE / Editor
+# =========================
+
+# VS Code
+.vscode/
+
+# (optional: keep shared settings)
+#!.vscode/settings.json
+#!.vscode/extensions.json
+
+.idea/
+
+# =========================
+#  macOS
+# =========================
+.DS_Store
+
+# =========================
+#  Testing / coverage
+# =========================
+.coverage
+htmlcov/
+.pytest_cache/
+
+# =========================
+# Misc
+# =========================
+*.tmp
+*.bak
+*.swp
