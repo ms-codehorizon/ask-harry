@@ -1,7 +1,7 @@
 # Ask Harry
 
-**Ask Harry** is a local-first **RAG + Agent framework** for exploring how LLMs reason over real codebases using hybrid retrieval and tool-based workflows.
-It demonstrates how modern AI systems combine semantic search, structured tools, and iterative reasoning to produce grounded answers.
+**Ask Harry** is a local-first RAG application that demonstrates how a single LLM agent can reason over real codebases using hybrid retrieval (semantic + keyword search) and iterative 
+tool use to produce grounded, cited answers.
 
 The project compares multiple interaction patterns.
 
@@ -41,8 +41,6 @@ CLI Interface
 Prompt Templates
    ↓
 Service Layer
-   ↓
-Planner (future)
    ↓
 Tool Registry
    ↓
